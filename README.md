@@ -4,14 +4,14 @@ There are start, goal, death, mountain, and flat nodes in a grid. The purpose is
 
 Cost Table:
 
- From         To         Transition Cost
+ From    -     To     :    Transition Cost
  _______________________________________
  
- Flat         Flat            -1
- Flat         Mountain        -3
- Mountain     Mountain        -2
- Mountain     Flat            -1
- Any          Goal            100
- Any          Death          -100
+ Flat    -     Flat      :      -1
+ Flat    -     Mountain    :    -3
+ Mountain   -  Mountain    :    -2
+ Mountain  -   Flat      :      -1
+ Any    -      Goal      :      100
+ Any    -      Death     :     -100
  
  
